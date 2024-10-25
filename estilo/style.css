@@ -36,7 +36,7 @@ header > h1 {
     /*text-transform: uppercase; OU*/
     font-variant: small-caps;
     font-family: var(--fonte4);
-    font-size: 10vw;
+    font-size: 6vw;
 }
 
 header > p {
@@ -69,6 +69,7 @@ section > p {
 section.normal {
     background-color: rgb(243, 237, 217);
     color: black;
+    text-indent: 20px;
 }
 
 section.imagem {
@@ -94,6 +95,14 @@ section#img01 {
 section#img02 {
     background-image: url('../imagens/familia2.jpg');
     background-position: center center;
+}
+
+p#txt {
+    text-align: center;
+}
+
+p#txt1 {
+    text-align: center;
 }
 
 footer {
